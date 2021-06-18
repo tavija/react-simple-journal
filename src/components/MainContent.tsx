@@ -76,6 +76,14 @@ function MainContent(): JSX.Element {
         likes={0}
         postDate={{ month: "July", day: 28, year: 2003 }}
       />
+      <JournalEntry
+        title={"Testing functionality"}
+        tags={["dev","programming","react","HTML"]}
+        body={"It's been 4th week of learning to code. I think this whole course is well constructed and very clear. It is very challenging but nevertheless I am looking forward to see what's next."}
+        views={2000}
+        likes={568}
+        postDate={{ month: "June", day: 18, year: 2021 }}
+      />
     </main>
   );
 }
